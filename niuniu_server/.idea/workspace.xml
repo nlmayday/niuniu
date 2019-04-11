@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="36f40d0d-50e4-4a52-b6e3-be513b33858e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_server/loginServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/login_server/loginServer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/majiang_server/games/wd_nn.js" beforeDir="false" afterPath="$PROJECT_DIR$/majiang_server/games/wd_nn.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="centerServer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/center_server/centerServer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hallServer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hall_server/hallServer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginServer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login_server/loginServer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userMgr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/userMgr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wd_nn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/majiang_server/games/wd_nn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4180">
+              <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errcode.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/errcode.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="token_create.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/token_create.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>福利</find>
+      <find>config_servers</find>
+      <find>102</find>
+      <find>login_hall</find>
+      <find>fuli</find>
+      <find>bindid</find>
+      <find>get_unionInfo_resp</find>
+      <find>client.area</find>
+      <find>t_union_record</find>
+      <find>s_agecy_tax</find>
+      <find>s_union_score_detail</find>
+      <find>100</find>
+      <find>1000</find>
+      <find>t_union_user</find>
+      <find>apply_list_resp</find>
+      <find>getNotify</find>
+      <find>userMgr</find>
+      <find>function begin(roomId) {</find>
+      <find>dogameover</find>
+      <find>c</find>
+      <find>setNiuniu</find>
+      <find>setNiuniu2</find>
+      <find>clone</find>
+      <find>utils</find>
+      <find>niuniu</find>
+      <find>createNiuniu2</find>
+      <find>do</find>
+      <find>s_agecy</find>
+      <find>deal</find>
+      <find>dingzhuang</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>broadcastInRoom</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ljj\Desktop\server</dir>
+      <dir>D:\server</dir>
+      <dir>D:\server_niuniu</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/stream.js" />
+        <option value="$PROJECT_DIR$/center_server/token_create.js" />
+        <option value="$PROJECT_DIR$/utils/binstream.js" />
+        <option value="$PROJECT_DIR$/center_server/config.json" />
+        <option value="$PROJECT_DIR$/login_server/config.json" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/center_server/readConfig_again.js" />
+        <option value="$PROJECT_DIR$/majiang_server/roommgr.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/majiang_server/testHu.js" />
+        <option value="internal/http.js" />
+        <option value="$PROJECT_DIR$/utils/crypto.js" />
+        <option value="$PROJECT_DIR$/utils/log4js.js" />
+        <option value="$PROJECT_DIR$/majiang_server/gamemgr_gxmj.js" />
+        <option value="$PROJECT_DIR$/majiang_server/gl_mj.js" />
+        <option value="$PROJECT_DIR$/majiang_server/initTiles.json" />
+        <option value="$PROJECT_DIR$/majiang_server/gy_mj.js" />
+        <option value="$PROJECT_DIR$/common/config2.json" />
+        <option value="$PROJECT_DIR$/common/readConfig_again2.js" />
+        <option value="$PROJECT_DIR$/test/crypto_test.js" />
+        <option value="$PROJECT_DIR$/common/readConfig_again.js" />
+        <option value="vm:828" />
+        <option value="$PROJECT_DIR$/common/errcode.json" />
+        <option value="$PROJECT_DIR$/backstage.js" />
+        <option value="$PROJECT_DIR$/utils/utils.js" />
+        <option value="$PROJECT_DIR$/common/config.json" />
+        <option value="$PROJECT_DIR$/majiang_server/userMgr.js" />
+        <option value="$PROJECT_DIR$/majiang_server/checkHu.js" />
+        <option value="$PROJECT_DIR$/majiang_server/games/gl_mj.js" />
+        <option value="$PROJECT_DIR$/majiang_server/games/gy_mj.js" />
+        <option value="D:/wdnn_client/xnnn/assets/scripts/scene/Login.js" />
+        <option value="$PROJECT_DIR$/common/userMgr.js" />
+        <option value="$PROJECT_DIR$/test/niuniu_test.js" />
+        <option value="$PROJECT_DIR$/common/token_create.js" />
+        <option value="$PROJECT_DIR$/launch.js" />
+        <option value="$PROJECT_DIR$/majiang_server/roomConf.js" />
+        <option value="$PROJECT_DIR$/center_server/centerServer.js" />
+        <option value="$PROJECT_DIR$/majiang_server/clientMgr.js" />
+        <option value="$PROJECT_DIR$/majiang_server/roomMgr.js" />
+        <option value="$PROJECT_DIR$/utils/socket.js" />
+        <option value="$PROJECT_DIR$/utils/http.js" />
+        <option value="$PROJECT_DIR$/majiang_server/socket_service.js" />
+        <option value="$PROJECT_DIR$/majiang_server/gameServer.js" />
+        <option value="$PROJECT_DIR$/hall_server/hallServer.js" />
+        <option value="$PROJECT_DIR$/utils/dbStage.js" />
+        <option value="$PROJECT_DIR$/utils/db.js" />
+        <option value="$USER_HOME$/Desktop/db.js" />
+        <option value="$PROJECT_DIR$/login_server/loginServer.js" />
+        <option value="$USER_HOME$/Desktop/loginServer.js" />
+        <option value="$PROJECT_DIR$/majiang_server/games/wd_nn.js" />
+        <option value="$PROJECT_DIR$/common/config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/addressparser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/agent-base/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/agent-base/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ast-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/async-limiter/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/axios/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bignumber.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/buildmail/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/circular-json/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cryptiles/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/data-uri-to-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/date-format/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/deep-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/degenerator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/double-ended-queue/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/escodegen/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/estraverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-levenshtein/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/file-uri-to-path/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ftp/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ftp/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ftp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/get-uri/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/get-uri/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/hipchat-notifier/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/httpntlm/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/httpreq/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/https-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/https-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inflection/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/levn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/libbase64/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/libmime/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/libmime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/libqp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/log4js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/loggly/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mailcomposer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mailgun-js/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mailgun-js/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mailgun-js/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mailgun-js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mysql/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/netmask/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer-direct-transport/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer-fetch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer-shared/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer-smtp-pool/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer-smtp-transport/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer-wellknown/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer/node_modules/ip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer/node_modules/socks/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/nodemailer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/optionator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pac-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pac-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pac-resolver/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pac-resolver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-proxy/node_modules/inflection/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-proxy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/prelude-ls/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/redis-commands/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/redis-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/redis/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/requestretry/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/slack-node/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/smart-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/smtp-connection/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/socks-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/socks/node_modules/ip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/socks/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sqlstring/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/streamroller/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/streamroller/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/streamroller/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/thunkify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/timespan/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tsscmp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/type-check/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ultron/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/when/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xregexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xtend/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-40" />
+    <option name="width" value="1940" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="center_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="hall_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="login_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="majiang_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="majiang_server" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="niuniu_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuniu_server" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server_niuniu\utils" />
+      <recent name="D:\server_niuniu" />
+      <recent name="D:\server_niuniu\majiang_server\games" />
+      <recent name="D:\server_niuniu\common" />
+      <recent name="D:\server\majiang_server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\server_niuniu\test" />
+      <recent name="D:\server_niuniu\majiang_server\games" />
+      <recent name="C:\Users\ljj\Desktop\server\common" />
+      <recent name="C:\Users\ljj\Desktop\server\utils" />
+      <recent name="C:\Users\ljj\Desktop\server\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.launch.js">
+    <configuration name="backstage.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="backstage.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="crypto_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="crypto_test.js" working-dir="$PROJECT_DIR$/test" />
+    <configuration name="launch.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="launch.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="niuniu_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="niuniu_test.js" working-dir="$PROJECT_DIR$/test" />
+    <configuration name="token_create.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="token_create.js" working-dir="$PROJECT_DIR$/common" />
+    <list>
+      <item itemvalue="Node.js.launch.js" />
+      <item itemvalue="Node.js.crypto_test.js" />
+      <item itemvalue="Node.js.backstage.js" />
+      <item itemvalue="Node.js.token_create.js" />
+      <item itemvalue="Node.js.niuniu_test.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.launch.js" />
+        <item itemvalue="Node.js.token_create.js" />
+        <item itemvalue="Node.js.niuniu_test.js" />
+        <item itemvalue="Node.js.backstage.js" />
+        <item itemvalue="Node.js.crypto_test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\anonymous\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36f40d0d-50e4-4a52-b6e3-be513b33858e" name="Default" comment="" />
+      <created>1504015044212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504015044212</updated>
+      <workItem from="1504015045368" duration="5051000" />
+      <workItem from="1504104807963" duration="5320000" />
+      <workItem from="1504181186610" duration="827000" />
+      <workItem from="1504182035737" duration="9152000" />
+      <workItem from="1504268704932" duration="12972000" />
+      <workItem from="1504354713491" duration="17415000" />
+      <workItem from="1504406605266" duration="13944000" />
+      <workItem from="1504438997088" duration="12000" />
+      <workItem from="1505966405298" duration="1879000" />
+      <workItem from="1506690620904" duration="866000" />
+      <workItem from="1506738218177" duration="5315000" />
+      <workItem from="1508402001774" duration="652000" />
+      <workItem from="1508581871574" duration="17578000" />
+      <workItem from="1509357470179" duration="886000" />
+      <workItem from="1509358393243" duration="3884000" />
+      <workItem from="1509414594372" duration="6826000" />
+      <workItem from="1509677515133" duration="1518000" />
+      <workItem from="1510476325841" duration="4777000" />
+      <workItem from="1510537965915" duration="24571000" />
+      <workItem from="1510628010490" duration="7918000" />
+      <workItem from="1510712813690" duration="12480000" />
+      <workItem from="1510732569999" duration="367000" />
+      <workItem from="1510733143784" duration="19357000" />
+      <workItem from="1510798231681" duration="2803000" />
+      <workItem from="1510889688341" duration="3259000" />
+      <workItem from="1511419894378" duration="618000" />
+      <workItem from="1511512327069" duration="4669000" />
+      <workItem from="1511587944387" duration="13108000" />
+      <workItem from="1511662003988" duration="598000" />
+      <workItem from="1511769681502" duration="1204000" />
+      <workItem from="1511830464195" duration="862000" />
+      <workItem from="1513421467221" duration="2290000" />
+      <workItem from="1513485080674" duration="3052000" />
+      <workItem from="1513563090565" duration="1198000" />
+      <workItem from="1513687848031" duration="7872000" />
+      <workItem from="1513737299731" duration="39556000" />
+      <workItem from="1513825466794" duration="71923000" />
+      <workItem from="1514009215404" duration="930000" />
+      <workItem from="1514013320653" duration="12979000" />
+      <workItem from="1514091138505" duration="20767000" />
+      <workItem from="1514166709696" duration="26458000" />
+      <workItem from="1514264490285" duration="6404000" />
+      <workItem from="1514298964876" duration="7551000" />
+      <workItem from="1514342479677" duration="14963000" />
+      <workItem from="1514436739384" duration="633000" />
+      <workItem from="1514454846145" duration="599000" />
+      <workItem from="1514455786565" duration="13468000" />
+      <workItem from="1514528639790" duration="19201000" />
+      <workItem from="1514612231931" duration="11147000" />
+      <workItem from="1514706234686" duration="644000" />
+      <workItem from="1514816066970" duration="605000" />
+      <workItem from="1514864659594" duration="6884000" />
+      <workItem from="1514897946536" duration="1197000" />
+      <workItem from="1514945487435" duration="11500000" />
+      <workItem from="1515129801567" duration="19936000" />
+      <workItem from="1515213180487" duration="18501000" />
+      <workItem from="1515240346149" duration="12692000" />
+      <workItem from="1515305370274" duration="4698000" />
+      <workItem from="1515314580702" duration="8515000" />
+      <workItem from="1515396702435" duration="13966000" />
+      <workItem from="1515480350195" duration="23335000" />
+      <workItem from="1515565623661" duration="4806000" />
+      <workItem from="1515589378463" duration="5550000" />
+      <workItem from="1515647406802" duration="1812000" />
+      <workItem from="1515659560135" duration="15550000" />
+      <workItem from="1515683587714" duration="7490000" />
+      <workItem from="1515723336622" duration="283000" />
+      <workItem from="1515723759133" duration="11956000" />
+      <workItem from="1515769998255" duration="618000" />
+      <workItem from="1515810580464" duration="8331000" />
+      <workItem from="1515849576989" duration="603000" />
+      <workItem from="1515893673748" duration="20662000" />
+      <workItem from="1515943832432" duration="23463000" />
+      <workItem from="1516068366300" duration="34513000" />
+      <workItem from="1516155974041" duration="1705000" />
+      <workItem from="1516242841023" duration="14248000" />
+      <workItem from="1516293668276" duration="617000" />
+      <workItem from="1516363551334" duration="4588000" />
+      <workItem from="1516416298162" duration="20862000" />
+      <workItem from="1516501661527" duration="19927000" />
+      <workItem from="1516532475199" duration="7927000" />
+      <workItem from="1516586944517" duration="13322000" />
+      <workItem from="1516640449139" duration="631000" />
+      <workItem from="1516684188259" duration="4461000" />
+      <workItem from="1516762308017" duration="8124000" />
+      <workItem from="1516848324645" duration="15835000" />
+      <workItem from="1516933935707" duration="29550000" />
+      <workItem from="1517021323629" duration="18754000" />
+      <workItem from="1517117278922" duration="13687000" />
+      <workItem from="1517203414561" duration="4649000" />
+      <workItem from="1517283889007" duration="8474000" />
+      <workItem from="1517375780281" duration="18768000" />
+      <workItem from="1517448030852" duration="30813000" />
+      <workItem from="1517545951077" duration="24485000" />
+      <workItem from="1517673859883" duration="4856000" />
+      <workItem from="1517721739449" duration="11901000" />
+      <workItem from="1517819745711" duration="18171000" />
+      <workItem from="1517908864808" duration="8668000" />
+      <workItem from="1517974541093" duration="32150000" />
+      <workItem from="1518017619234" duration="345000" />
+      <workItem from="1518018040795" duration="3868000" />
+      <workItem from="1518058666332" duration="29348000" />
+      <workItem from="1518149653006" duration="23481000" />
+      <workItem from="1518232338453" duration="14689000" />
+      <workItem from="1519374803386" duration="1728000" />
+      <workItem from="1519435445244" duration="23425000" />
+      <workItem from="1519522210172" duration="16342000" />
+      <workItem from="1519566141129" duration="669000" />
+      <workItem from="1519607962200" duration="3942000" />
+      <workItem from="1519695513231" duration="10448000" />
+      <workItem from="1519781389917" duration="10523000" />
+      <workItem from="1519872042067" duration="13224000" />
+      <workItem from="1519978181710" duration="958000" />
+      <workItem from="1520037969720" duration="8937000" />
+      <workItem from="1520129835881" duration="13191000" />
+      <workItem from="1520209996831" duration="6800000" />
+      <workItem from="1520297183393" duration="20080000" />
+      <workItem from="1520383411168" duration="6349000" />
+      <workItem from="1520498548582" duration="3893000" />
+      <workItem from="1520556766115" duration="24215000" />
+      <workItem from="1520845930580" duration="609000" />
+      <workItem from="1520928466688" duration="1125000" />
+      <workItem from="1529067004106" duration="19171000" />
+      <workItem from="1529569270971" duration="2681000" />
+      <workItem from="1529630574353" duration="17944000" />
+      <workItem from="1529716910000" duration="12565000" />
+      <workItem from="1529893312422" duration="1514000" />
+      <workItem from="1529909256666" duration="12932000" />
+      <workItem from="1529976896005" duration="10024000" />
+      <workItem from="1530063934639" duration="1917000" />
+      <workItem from="1530085908896" duration="8000000" />
+      <workItem from="1530151472252" duration="14167000" />
+      <workItem from="1530321329990" duration="15166000" />
+      <workItem from="1530494364686" duration="6857000" />
+      <workItem from="1530668243186" duration="10240000" />
+      <workItem from="1531729789877" duration="5728000" />
+      <workItem from="1531877141783" duration="1624000" />
+      <workItem from="1531883348976" duration="54000" />
+      <workItem from="1532483993583" duration="1587000" />
+      <workItem from="1532486563906" duration="13000" />
+      <workItem from="1532487129389" duration="151000" />
+      <workItem from="1532509089899" duration="1118000" />
+      <workItem from="1532510429287" duration="737000" />
+      <workItem from="1532513237272" duration="2795000" />
+      <workItem from="1535250229488" duration="2042000" />
+      <workItem from="1535252290304" duration="1311000" />
+      <workItem from="1535333905004" duration="1465000" />
+      <workItem from="1535422960355" duration="634000" />
+      <workItem from="1535804799708" duration="4422000" />
+      <workItem from="1535856439021" duration="3944000" />
+      <workItem from="1535940224513" duration="707000" />
+      <workItem from="1536143049042" duration="15000" />
+      <workItem from="1536144336468" duration="696000" />
+      <workItem from="1536145035124" duration="3000" />
+      <workItem from="1536145128271" duration="3310000" />
+      <workItem from="1536157908691" duration="1252000" />
+      <workItem from="1536336203479" duration="441000" />
+      <workItem from="1536998239275" duration="5461000" />
+      <workItem from="1537021956381" duration="3360000" />
+      <workItem from="1537159212492" duration="701000" />
+      <workItem from="1537166547516" duration="696000" />
+      <workItem from="1537323538303" duration="6000" />
+      <workItem from="1537325876629" duration="1912000" />
+      <workItem from="1537328186519" duration="128000" />
+      <workItem from="1537425588972" duration="1134000" />
+      <workItem from="1537516373314" duration="11000" />
+      <workItem from="1537666917543" duration="599000" />
+      <workItem from="1537802567774" duration="1070000" />
+      <workItem from="1537843250433" duration="202000" />
+      <workItem from="1539307396287" duration="2606000" />
+      <workItem from="1552369826839" duration="20442000" />
+      <workItem from="1552636770508" duration="6026000" />
+      <workItem from="1552704904624" duration="684000" />
+      <workItem from="1552743599748" duration="2535000" />
+      <workItem from="1552804705257" duration="1993000" />
+      <workItem from="1552816140951" duration="3189000" />
+      <workItem from="1552827861672" duration="4088000" />
+      <workItem from="1553319025476" duration="3887000" />
+      <workItem from="1554128894366" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1523119000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15755208" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4936575" weight="0.3288889" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51585627" side_tool="true" weight="0.27333334" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47885835" weight="0.16965517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49788582" weight="0.33597285" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48414376" weight="0.5255172" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49788582" weight="0.3288889" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16384777" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4936575" weight="0.3288889" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47885835" weight="0.27" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48414376" visible="true" weight="0.27333334" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49788582" weight="0.33666667" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51585627" side_tool="true" visible="true" weight="0.27333334" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49788582" weight="0.3288889" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/majiang_server/games/gl_mj.js</url>
+          <line>877</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/majiang_server/games/gl_mj.js</url>
+          <line>881</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/login_server/loginServer.js</url>
+          <line>117</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/utils/db.js</url>
+          <line>519</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/utils/dbStage.js</url>
+          <line>61</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/utils/dbStage.js</url>
+          <line>71</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/utils/dbStage.js</url>
+          <line>65</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/niuniu_test.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/niuniu_test.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/niuniu_test.js</url>
+          <line>18</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/niuniu_test.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/majiang_server/games/wd_nn.js</url>
+          <line>186</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="461" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/ws/lib/WebSocketServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ws/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-898">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center_server/rpc_server.js" />
+    <entry file="file://$PROJECT_DIR$/utils/light_rpc.js" />
+    <entry file="file://$PROJECT_DIR$/majiang_server/checkHu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1777">
+          <caret line="355" column="34" selection-start-line="355" selection-start-column="34" selection-end-line="355" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/games/gl_mj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wdnn_client/xnnn/assets/scripts/scene/Login.js" />
+    <entry file="file://$PROJECT_DIR$/test/niuniu_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/center_niuniu/launch.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/Settings.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/Kefu.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/SafeBox.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/RoomList.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/JoinInput.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/Create_Join.js" />
+    <entry file="file://D:/wdnn_client/dns/assets/scripts/prefab/CreateRoom.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/AJAX.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/ftp/node_modules/isarray/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ws/lib/WebSocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ws/lib/Sender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8306">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ws/lib/Receiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/initTiles.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/roomConf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/clientMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/games/gy_mj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/socket_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4256">
+          <caret line="224" column="79" selection-start-line="224" selection-start-column="79" selection-end-line="224" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/http.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/qp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/dbStage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="225" column="54" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/db.js" />
+    <entry file="file://$USER_HOME$/Desktop/loginServer.js" />
+    <entry file="file://$PROJECT_DIR$/utils/socket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/roomMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4047">
+          <caret line="213" column="19" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/gameServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="89" column="15" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../chuanqi_niuniu/niuniu_server/majiang_server/games/wd_nn.js" />
+    <entry file="file://$PROJECT_DIR$/common/userMgr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/errcode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/token_create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majiang_server/games/wd_nn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="220" column="8" selection-start-line="220" selection-start-column="8" selection-end-line="220" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_server/loginServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hall_server/hallServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/center_server/centerServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

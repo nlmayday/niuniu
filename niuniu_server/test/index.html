@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>聊天</title>
+    <link rel="stylesheet" href="">
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script type="text/javascript">
+    </script>
+</head>
+<style type="text/css" media="screen">
+    div {
+        border: 1px solid #cccccc;
+        width: 500px;
+        min-height: 100px;
+    }
+</style>
+
+<body>
+<div id="show">
+</div>
+<input type="text" id="message" name="" value="" placeholder="">
+<input type="text" id="name" value="" placeholder="昵称;">
+<a href="javascript:void(0)" onclick="send()">发送</a>
+<a href="javascript:void(0)" onclick="exit()">退出</a>
+<!-- <input type="text" id="token" name="" value="" placeholder="" readonly="false"> -->
+</body>
+<script type="text/javascript">
+    var ws = new WebSocket("ws://127.0.0.1:10001?t=test");
+    ws.onopen = function() {
+        console.log("连接状态", ws);
+        $("#show").html("连接状态;" + ws.readyState + "</br>");
+        console.log("open");
+    };
+    ws.onmessage = function(evt) {
+        console.log(evt.data)
+        alert(evt.data);
+        $("#show").append(evt.data + "</br>");
+    };
+    ws.onclose = function(evt) {
+        console.log("WebSocketClosed!");
+        console.log(evt);
+    };
+    ws.onerror = function(evt) {
+        console.log("WebSocketError!");
+    };
+
+    function send() {
+        var msg = $("#message").val();
+        var key = $("#token").val();
+        var name = $("#name").val();
+        var str = "{name:'" + name + "',msg:'" + msg + "',key:'" + key + "'}";
+        console.log("发送", str);
+        ws.send(str);
+    };
+
+    function exit() {
+        var r = ws.close();
+        console.log("退出", r);
+    }
+</script>
+
+</html>
