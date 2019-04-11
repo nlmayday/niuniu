@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shihua",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "75d41078-fe79-406b-8214-f26818cb0a50"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "9ec4adc7-cec0-4b22-bc54-737e5da5e163"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "6acbac99-233d-459e-86f2-86f3aba5acef"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "7736848c-84c2-4209-9ea4-421c7cd47b55"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "7ac3d36c-00ed-47d5-b07a-72d6762449b8"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "0e10de28-6fd8-40ad-93c2-76653b966bf7"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

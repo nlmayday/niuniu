@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "qiangzhuang",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.17,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "buqiang": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -340
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                -200,
+                -300
+              ]
+            }
+          ]
+        }
+      },
+      "yibei": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -340
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                -100,
+                -220
+              ]
+            }
+          ]
+        }
+      },
+      "sanbei": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -340
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                100,
+                -220
+              ]
+            }
+          ]
+        }
+      },
+      "sibei": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -340
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                200,
+                -300
+              ]
+            }
+          ]
+        }
+      },
+      "erbei": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                -340
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                0,
+                -160
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

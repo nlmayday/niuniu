@@ -1,0 +1,77 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "tomato",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.02,
+  "sample": 50,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e2419752-44be-4ec0-8834-3156f8cc6ab6"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "f3ed6341-7f5f-4e2d-8595-32d1c0964fad"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "ca18e76e-0180-40fe-871a-0ba22f694733"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "95910ac2-5985-4add-bebd-76195d45f9b1"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "84edc3c4-ecb3-4363-87f6-78893027502c"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "1e518842-008c-4ad6-b574-6daa0392d78b"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "299c89a4-7795-41cb-b114-12bceb495909"
+            }
+          },
+          {
+            "frame": 1.4,
+            "value": {
+              "__uuid__": "e59326ce-3eed-424b-8f51-ccf1c2b04816"
+            }
+          },
+          {
+            "frame": 1.6,
+            "value": {
+              "__uuid__": "b59c3e04-a7d6-4306-9de1-015536abd517"
+            }
+          },
+          {
+            "frame": 2,
+            "value": null
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

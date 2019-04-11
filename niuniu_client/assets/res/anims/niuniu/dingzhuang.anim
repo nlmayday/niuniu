@@ -1,0 +1,64 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dingzhuang",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "dingzhuang": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": false
+            },
+            {
+              "frame": 0.2,
+              "value": true
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": false
+            },
+            {
+              "frame": 0.4,
+              "value": true
+            },
+            {
+              "frame": 0.4666666666666667,
+              "value": false
+            },
+            {
+              "frame": 0.6,
+              "value": true
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": false
+            },
+            {
+              "frame": 0.8,
+              "value": true
+            },
+            {
+              "frame": 0.8666666666666667,
+              "value": false
+            }
+          ]
+        }
+      },
+      "zhuang": {
+        "props": {}
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,84 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "roomListShow",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "pop_bg2/roomList": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                680
+              ]
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": [
+                0,
+                590
+              ]
+            }
+          ]
+        }
+      },
+      "btn_close": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -405,
+                587
+              ]
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": [
+                -296,
+                587
+              ]
+            }
+          ]
+        }
+      },
+      "item": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.13333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "layout": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "loading": {
+        "comps": {
+          "cc.Sprite": {}
+        }
+      }
+    }
+  },
+  "events": []
+}

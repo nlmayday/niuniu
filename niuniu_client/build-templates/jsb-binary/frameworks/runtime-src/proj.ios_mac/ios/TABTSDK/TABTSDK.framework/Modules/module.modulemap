@@ -1,0 +1,6 @@
+framework module TABTSDK {
+  umbrella header "TABTSDK.h"
+
+  export *
+  module * { export * }
+}

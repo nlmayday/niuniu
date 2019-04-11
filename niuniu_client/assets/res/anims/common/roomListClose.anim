@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "roomListClose",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.13,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 0.13333333333333333,
+          "value": [
+            684.2525,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

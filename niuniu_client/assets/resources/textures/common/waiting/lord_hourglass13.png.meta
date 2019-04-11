@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ddc2d1c7-c35d-46d4-9e2c-26fc60fa0cc8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "lord_hourglass13": {
+      "ver": "1.0.3",
+      "uuid": "9a1140d9-e0c4-4857-b750-0f98789ef47c",
+      "rawTextureUuid": "ddc2d1c7-c35d-46d4-9e2c-26fc60fa0cc8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": -2.5,
+      "trimX": 7,
+      "trimY": 15,
+      "width": 51,
+      "height": 41,
+      "rawWidth": 66,
+      "rawHeight": 66,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

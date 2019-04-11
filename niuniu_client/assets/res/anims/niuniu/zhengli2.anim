@@ -1,0 +1,80 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhengli2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "front1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -92,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "front2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -46,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "front3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "front4": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                46,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "front5": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                92,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

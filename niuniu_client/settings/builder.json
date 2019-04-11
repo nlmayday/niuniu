@@ -1,0 +1,35 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": false
+  },
+  "packageName": "com.renheniuniu.android",
+  "privateKey": "",
+  "startScene": "68a1f0da-74bc-4a3a-8863-19a74cb49d98",
+  "title": "niuniu",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "866df9da-7115-40",
+  "zipCompressJs": true,
+  "renderMode": "0"
+}
