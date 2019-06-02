@@ -68,9 +68,9 @@ function get_access_token(code,os,callback){
     };
     http.get("https://api.weixin.qq.com/sns/oauth2/access_token",data,callback,true);
 }
-var create_coins = 0;
-var create_gems = 0;
-var create_roomCard = 0;
+var create_coins = 10000;
+var create_gems = 10000;
+var create_roomCard = 10000;
 function create_user(info,callback){
     db.is_user_exist(info.account,function(ret){
         if(!ret){
