@@ -8,16 +8,16 @@ exports.servers =
             },
             "version": "1.0.0",
             "servers": [
-                { "index": 1,"desc": "renheniuniu", "name":"内测版","url": "172.20.10.3:8001", "token": "fKhxfw/cwLE2ok2VrqmV9w==" },
+                { "index": 1,"desc": "renheniuniu", "name":"内测版","url": "127.0.0.1:7002", "token": "fKhxfw/cwLE2ok2VrqmV9w==" },
             ],
             "recommend": 1
         },
         "login_hall": {
             "servers":
-                { "index": 1,"desc": "renheniuniu", "url": "172.20.10.3:9001","weChat":"CSDN7777", "shareWeb": "http://172.20.10.3/download/index.html" }
+                { "index": 1,"desc": "renheniuniu", "url": "127.0.0.1:7003","weChat":"CSDN7777", "shareWeb": "http://172.20.10.3/download/index.html" }
         },
         "hall_game": {
             "servers":
-                { "index": 1, "desc": "renheniuniu", "url": "172.20.10.3:10001" }
+                { "index": 1, "desc": "renheniuniu", "url": "127.0.0.1:7003" }
         }
     }

@@ -12,7 +12,8 @@ var name = "人和牛牛";
 
 var local = function(){
     return {
-        url : "47.104.255.159:7001",
+       
+        url : "127.0.0.1:7001",
         hotUrl : "",
         hotUpdate : false,
         name : name,
@@ -23,7 +24,7 @@ var local = function(){
 
 var debug = function(){
     return {
-        url : "127.0.0.1:7001",
+        url : "118.24.101.215:7001",
         hotUrl : "",
         hotUpdate : false,
         name : name,
@@ -34,7 +35,8 @@ var debug = function(){
 
 var product = function(){
     return {
-        url : "47.104.255.159:7001",
+       
+        url : "127.0.0.1:7001",
         hotUrl : "",
         hotUpdate : true,
         name : name,

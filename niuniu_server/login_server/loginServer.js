@@ -10,7 +10,7 @@ const db = require('../utils/db');
 const config = require('../common/config');
 
 const app = express();
-app.listen(8001);
+app.listen(7002);
 //设置跨域访问
 app.all('*', function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");

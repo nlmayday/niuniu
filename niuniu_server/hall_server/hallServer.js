@@ -17,7 +17,7 @@ var roomMgr = require('../majiang_server/roomMgr');
 var userMgr = require('../common/userMgr');
 
 var app = express();
-const port = 9001;
+const port = 7003;
 const commandId = 1;
 
 var rooms_public = {};      //存放所有公开房间
