@@ -15,4 +15,4 @@
 *cocos creator工具运行客户端代码*
 
 
-# 如果不能用就issuea或者qq(184674881)
+# 如果不能用就issue
