@@ -3,7 +3,7 @@
 
 # 牛牛棋牌游戏
 ## 代码结构
-### 服务器 *niuniu_server (nodejs)*
+### 服务器 *niuniu_server (nodejs v8.9.0)*
 ### 客户端 *niuniu_client (cocos crator)*
 ### 数据库文件 *niuniu_server/backup/qp.sql*
 
