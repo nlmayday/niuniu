@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-var mysql = require("mysql");
+var mysql = require("mysql2");
 var utils = require("./utils");
 
 var pool = null;
@@ -8,10 +8,10 @@ function init(){
     pool = mysql.createPool({
         host: "127.0.0.1",
         user: "root",
-        password: "sqlmima",
+        password: "Aa123456",
         database: "qp",
         port: 3306,
-        connectionLimit : 100       //创建100个连接
+        connectionLimit: 100
     });
 }
 init();
@@ -31,6 +31,7 @@ function query(sql,callback){
     });
 }
 exports.query = query;
+
 exports.get_notify = function(callback){
     var sql = 'SELECT type,msg FROM t_notify';
     query(sql, function(err, rows, fields) {
@@ -39,8 +40,8 @@ exports.get_notify = function(callback){
         }
         if(callback)callback(rows);
     });
-
 }
+
 exports.is_user_exist = function(account,callback){
     if(account == null){
         if(callback)callback(false);
@@ -73,10 +74,12 @@ query(sql, function(err, rows, fields) {
         console.log("user_index",user_index);
     }
 })
+
 function create_userId(){
     user_index = user_index + Math.ceil(10 * Math.random());
     return user_index;
 }
+
 exports.create_user = function(data,callback){
     if(data.account == null){
         if(callback)callback(false);
@@ -186,6 +189,7 @@ exports.get_user_base_info = function(userId,callback){
         if(callback)callback(rows[0]);
     });
 };
+
 exports.create_room = function(roomInfo,callback){
     if(roomInfo == null){
         if(callback)callback(false);
@@ -201,6 +205,7 @@ exports.create_room = function(roomInfo,callback){
         if(callback)callback(true);
     });
 };
+
 exports.update_seat_info = function(roomId,index,userId,name,score){
     if(roomId == null){
         return;
@@ -218,6 +223,7 @@ exports.update_seat_info = function(roomId,index,userId,name,score){
         }
     });
 };
+
 exports.delete_room = function(roomId){
     if(roomId == null){
         return;
@@ -229,6 +235,7 @@ exports.delete_room = function(roomId){
         }
     });
 };
+
 //存储房间总记录 ，并删除t_room_play记录
 exports.store_history = function(history){
     if(history == null){
@@ -276,6 +283,7 @@ exports.store_history = function(history){
         },userId);
     }
 };
+
 exports.update_numOfGames = function(roomId,numOfGames){
     var where = 'roomId = "' + roomId +  '"';
     var data = {};
@@ -287,6 +295,7 @@ exports.update_numOfGames = function(roomId,numOfGames){
         }
     });
 };
+
 exports.insert_game_records = function(roomId,type,createTime,numOfGames,userArr,scoreArr,actionList){
     var uuid = createTime + roomId;
     var userArr1 = JSON.stringify(userArr);
@@ -299,6 +308,7 @@ exports.insert_game_records = function(roomId,type,createTime,numOfGames,userArr
         }
     });
 };
+
 exports.cost_gems = function(users,cost){
     for(var i=0;i<users.length;i++){
         var sql = 'UPDATE t_userinfo SET gems=gems-' + cost + ' WHERE userId="' + users[i] + '"';
@@ -309,6 +319,7 @@ exports.cost_gems = function(users,cost){
         });
     }
 };
+
 exports.cost_coins = function(userId,rs,coins,callback){
     var area = rs.area;
     var sql = 'UPDATE t_userinfo SET coins=coins-' + coins + ' WHERE userId="' + userId + '" and area="' + area + '"';
@@ -329,6 +340,7 @@ exports.cost_coins = function(userId,rs,coins,callback){
         });
     });
 };
+
 exports.rate_coins2 = function(userId,area,cost) {
         var sql2 = 'SELECT unionId FROM t_union_user WHERE userId="' + userId + '" and area="' + area + '"';
         query(sql2, function (err, rows, fields) {
@@ -376,6 +388,7 @@ exports.rate_coins2 = function(userId,area,cost) {
         });
 
 }
+
 exports.rate_coins = function(data,callback){
     var sql1 = 'SELECT rate FROM s_agecy limit 1';
     query(sql1, function (err, rows, fields) {
@@ -417,6 +430,7 @@ exports.save_money  = function(userId,area,coins,callback){
         });
     });
 }
+
 exports.takeOut_money  = function(userId,area,coins,callback){
     var sql = 'UPDATE t_userinfo SET coins=coins+' + coins + ',roomCard=roomCard-' + coins + ' WHERE userId="' + userId + '" and area="' + area + '"';
     query(sql, function (err, rows, fields) {
@@ -433,12 +447,14 @@ exports.takeOut_money  = function(userId,area,coins,callback){
         });
     });
 }
+
 var sql2 = 'DELETE from t_room_play';
 query(sql2, function(err, rows, fields) {
     if (err) {
         throw err;
     }
 });
+
 //公会功能
 /*var union_index = 1000;
 var sql = 'SELECT unionId FROM t_union_list order by id desc LIMIT 1';
@@ -467,6 +483,7 @@ exports.create_limit = function(userId,area,limit,callback) {
         callback();
     });
 };
+
 exports.create_union_apply = function(data,callback) {
     var sql = 'SELECT * FROM s_union_apply_list WHERE userId="' + data.userId + '" and area="' + data.area + '" and stat="0"';
     query(sql, function(err, rows, fields) {
@@ -502,6 +519,7 @@ exports.get_unionInfo = function(unionId,area,callback) {
         }
     });
 };
+
 exports.apply_coin = function(userId,unionId,area,coins) {
     var time = Date.now();
     var sql = 'SELECT userName FROM t_userinfo WHERE userId="' + userId + '" and area="' + area + '"';
@@ -536,6 +554,7 @@ exports.apply_coin = function(userId,unionId,area,coins) {
         });
     });
 };
+
 exports.join_union = function(userId,unionId,area,callback) {
     var sql1 = 'SELECT * FROM t_union_user WHERE userId="' + userId + '" and area="' + area + '"';
     query(sql1, function(err, rows2, fields) {
@@ -579,48 +598,7 @@ exports.join_union = function(userId,unionId,area,callback) {
         });
     });
 };
-/*exports.join_union = function(userId,unionId,area) {
-    var time = Date.now();
-    exports.get_unionInfo(unionId,area,function (code) {
-        if(code == 0){
-            var sql = 'SELECT * FROM t_union_record WHERE unionId="' + unionId + '" and area="' + area + '" and memberId="' + userId + '" and stat="0"';
-            query(sql, function(err, rows, fields) {
-                if (err) {
-                    throw err;
-                    return;
-                }
-                if (rows.length > 0) return;
-                var sql2 = 'SELECT userName,coins FROM t_userinfo WHERE userId="' + userId + '"';
-                query(sql2, function (err, rows, fields) {
-                    if (err) {
-                        throw err;
-                        return;
-                    }
-                    var userName = rows[0].userName;
-                    var coins = rows[0].coins;
-                    var data = {
-                        unionId: unionId,
-                        area: area,
-                        memberId: userId,
-                        memberName: userName,
-                        type: 4,
-                        coins: coins,
-                        time: time
-                    };
-                    var sql3 = insertSQL("t_union_record", data);
-                    query(sql3, function (err, rows, fields) {
-                        if (err) {
-                            throw err;
-                        }
-                    });
-                });
-            });
-        }
-        else if(code == 1){
 
-        }
-    });
-};*/
 exports.exit_union = function(userId,unionId,area) {
     var sql = 'SELECT creator,manager,member FROM t_union_list WHERE unionId="' + unionId + '" and area="' + area + '"';
     query(sql, function(err, rows, fields) {
@@ -665,6 +643,7 @@ exports.exit_union = function(userId,unionId,area) {
         });
     });
 };
+
 exports.offer_coins = function(userId,unionId,area,coins,callback) {
     var time = Date.now();
     var sql = 'SELECT userName,coins FROM t_userinfo WHERE userId="' + userId + '" and area="' + area + '"';
@@ -711,6 +690,7 @@ exports.get_record = function(userId,unionId,area,type,callback) {
         if(callback)callback(rows);
     });
 };
+
 exports.get_record_all = function(unionId,area,type,callback) {
     var sql = 'SELECT * FROM t_union_record WHERE unionId="' + unionId + '" and area="'+ area + '" and type="' + type + '" and stat="1" order by time desc LIMIT 20';
     query(sql, function(err, rows, fields) {
@@ -721,6 +701,7 @@ exports.get_record_all = function(unionId,area,type,callback) {
         if(callback)callback(rows);
     });
 };
+
 exports.get_record_apply = function(unionId,area,type,callback) {
     var sql = 'SELECT * FROM t_union_record WHERE unionId="' + unionId + '" and area="'+ area + '" and type="' + type + '" and stat="0"';
     query(sql, function(err, rows, fields) {
@@ -731,6 +712,7 @@ exports.get_record_apply = function(unionId,area,type,callback) {
         if(callback)callback(rows);
     });
 };
+
 exports.get_member_list = function(unionId,area,callback) {
     var sql = 'SELECT * FROM t_union_list WHERE unionId="' + unionId + '" and area="'+ area + '"';
     query(sql, function(err, rows, fields) {
@@ -741,6 +723,7 @@ exports.get_member_list = function(unionId,area,callback) {
         if(callback)callback(rows);
     });
 };
+
 exports.dealDoudou = function(unionId,userId,area, id,isAgree,callback) {
     var sql = 'SELECT * FROM t_union_record WHERE unionId="' + unionId + '" and area="'+ area + '" and id="'+ id + '" and stat="0"';
     query(sql, function(err, rows, fields) {
@@ -833,6 +816,7 @@ exports.dealDoudou = function(unionId,userId,area, id,isAgree,callback) {
         }
     });
 };
+
 exports.dealJoin = function(unionId,userId,area, id,isAgree,callback) {
     var sql = 'SELECT * FROM t_union_record WHERE unionId="' + unionId + '" and area="'+ area + '" and id="'+ id + '" and stat="0"';
     query(sql, function(err, rows, fields) {
@@ -970,6 +954,7 @@ exports.setManager = function(unionId,creator,area, userId,isAgree) {
 
     });
 };
+
 exports.get_award_count = function(unionId,area,callback) {
     var sql = 'SELECT * FROM s_union_score_detail WHERE userId="' + unionId + '" and area="'+ area + '"';
     query(sql, function(err, rows, fields) {
@@ -985,6 +970,7 @@ exports.get_award_count = function(unionId,area,callback) {
         if(callback)callback(count);
     });
 };
+
 exports.award_coin = function(unionId,area,callback) {
     var sql = 'SELECT * FROM s_union_score_detail WHERE userId="' + unionId + '" and area="'+ area + '"';
     query(sql, function(err, rows, fields) {
@@ -1028,6 +1014,7 @@ exports.award_coin = function(unionId,area,callback) {
 
     });
 };
+
 exports.niuniu_permission = function(userId,callback) {
     var sql = 'SELECT * FROM t_niuniu_permission WHERE userId="' + userId + '"';
     query(sql, function(err, rows, fields) {
@@ -1057,6 +1044,7 @@ exports.niuniu_permission = function(userId,callback) {
         });*/
     });
 };
+
 exports.getNiuniu2 = function(userId,callback) {
     var sql = 'SELECT * FROM t_niuniu_rate WHERE userId="' + userId + '"';
     query(sql, function(err, rows, fields) {
@@ -1071,6 +1059,7 @@ exports.getNiuniu2 = function(userId,callback) {
         if(callback)callback(rows[0].rate);
     });
 };
+
 exports.set_niuniu_permission = function(userId,niuniu,callback) {
     var sql = 'SELECT * FROM t_niuniu_permission WHERE userId="' + userId + '"';
     query(sql, function(err, rows, fields) {
